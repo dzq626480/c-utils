@@ -1,0 +1,1 @@
+#define AllOfDigital(str) !str.empty() && all_of(begin(str), end(str), [](char c){return isdigit(c);})
